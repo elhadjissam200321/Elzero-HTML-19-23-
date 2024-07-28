@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video autoplay loop muted poster="img/poster.jpg">
+        <source src="myVideo.mp4" type="video/mp4">
+        <source src="myVideo.webm" type="video/webm">
+        <source src="myVideo.ogg" type="video/ogg">
+        <track
+    label="English"
+    kind="subtitles"
+    srclang="en"
+    src="captions/vtt/lang-en.vtt"
+    default />
+    <track
+    label="French"
+    kind="subtitles"
+    srclang="fr"
+    src="captions/vtt/lang-fr.vtt"
+     />
+        The browser is not supported for these types.
+
+    </video>
+</body>
+</html>
